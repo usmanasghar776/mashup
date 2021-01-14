@@ -1,6 +1,8 @@
 #page-right-wrapper {
 	width: 350px;
-
+	position: absolute;
+	top: 25px;
+	right: 25px;
 }
 
 #page-bottom-wrapper {
@@ -8,13 +10,6 @@
 	bottom: 0px;
 	width: 100%;
 }
-
-button:hover {
-	cursor:pointer;
-	background-color: #5d63ad !important;
-	color:#fff;
-}
-
 
 #page-left-wrapper {
 	width: 350px;

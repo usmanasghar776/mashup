@@ -13,14 +13,6 @@
     <app-career></app-career>
   </div> -->
 
-<!--   <div id="page-right-wrapper" style="margin-right: 35%;">
-    <div id="page-left-disqus-wrapper">
-      <h2>Write a tweet?</h2>
-      <p>Here you can type your post</p>
-      <hr />
-      <app-twitter></app-twitter>
-    </div>
-  </div> -->
 
 <!--   <div id="page-right-wrapper" style="margin-right: 35%; margin-top: 25%;">
     <div id="page-left-disqus-wrapper">
@@ -45,21 +37,39 @@
     box-shadow: 1px 1px 9px 3px #ccc;">
     Welcome to my Mashup services
   </h1>
-  <div id="page-right-wrapper" style="right:50%;top:20%" >
+  <div class="flex-container" style="    position: absolute;
+    top: 0;
+    z-index: 1111;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;">
+    <div id="page-right-wrapper" >
     <div id="page-left-disqus-wrapper" style="min-height: 270px;">
-      <h2>Movie Search And Tweet Info</h2>
+      <h2>Write a tweet?</h2>
+      <p>Here you can type your post</p>
+      <hr />
+      <app-twitter></app-twitter>
+    </div>
+  </div>
+
+  <div id="page-right-wrapper"  >
+    <div id="page-left-disqus-wrapper" style="min-height: 270px;">
+      <h2>Movie Info Searching and Tweeting</h2>
       <hr />
       <app-moovie></app-moovie>
     </div>
   </div>
 
-  <div id="page-right-wrapper" style="right:23%;top:20%" >
+  <div id="page-right-wrapper"  >
     <div id="page-left-disqus-wrapper" style="min-height: 270px;">
       <h2>Message</h2>
       <hr />
       <app-message></app-message>
     </div>
   </div>
-
+</div>
 
 </div>
